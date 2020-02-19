@@ -3,5 +3,5 @@
 executer:
 
 ```shell script
-bash Tp1_partie.sh
+bash Tp1_partie2.sh
 ```
