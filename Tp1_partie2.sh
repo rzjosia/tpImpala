@@ -12,6 +12,8 @@ sudo service impala-state-store start
 sudo service impala-catalog start
 sudo service impala-server start
 
-# requête avec impala (ses requête sont dans le fichier "arbres.sql"
-# impala-shell -i localhost -f arbres.sql
+# Création de la base de données et table avec Hive
 hive -f arbres.sql
+
+# requête avec impala (ses requête sont dans le fichier "requete.sql")
+impala-shell -i localhost -f requete.sql
